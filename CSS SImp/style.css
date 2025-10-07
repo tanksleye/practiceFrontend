@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+h1 {
+    color: coral;
+}
+
+nav {
+    width: 100%;
+    height: 75px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 10rem 30rem;
+}
+
+button {
+    margin: 10px;
+     font-family: "Roboto", sans-serif;
+}
+
+p {
+    color:rgba(180, 8, 88, 0.5);
+}
+
+p.info {
+    color: rgb(11, 3, 121);
+}
+
+.info {
+    color: lightslategray;
+}
+
+.home {
+    color: darkgreen;
+}
+
+section {
+    height: 25vh;
+    border: 2px solid black;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 15px solid red;
+    padding: 15px 15px 15px 15px;
+    margin: 15px 15px 15px 15px;
+    box-sizing: border-box;
+}
+
+.green {
+    background-color: green;
+    border: 2px dashed red;
+}
+
+.blue {
+    background-color: blue;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+.media {
+    background-color: chartreuse;
+    color: black;
+    font-size: 24px;
+    transition: background-color 300ms;
+}
+
+.media::after {
+    content: "Frontend Simplified";
+}
+
+.media:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+button {
+    animation: float 2s 5 alternate-reverse;
+    transition: all 300ms;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.footer_link {
+    color: black;
+}
+
+.footer_link--active {
+    color: purple;
+    font-weight: bold;
+}
+
+
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+@media (max-width: 992px) {
+    .media {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .media {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .media {
+        font-size: 16px;
+    }
+}
+
+
+.orange {
+    background-color: orange;
+}
+
+div {
+    height: 200px;
+    border: 3px solid black;
+}
+
+.child1 {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    top: 25%;
+}
+
+.child2 {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    top: 25%;
+}
+
+.child3 {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    top: 25%;
+}

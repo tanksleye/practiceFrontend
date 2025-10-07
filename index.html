@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Simp</title>
+  </head>
+  <body>
+    <nav>
+
+    </nav>
+    <div>
+      <b><button><a href="login.html" >Login Page</button></b>
+    <button><a href="dashboard.html" >Dashboard</a></button>
+    <button><a href="landing.html" >Landing</a></button>
+      <h1>Tank</h1>
+      <p>This is the beginning of the song</p>
+
+      <h2>Next Section</h2>
+      <p>
+        <i>Lorem</i> ipsum dolor sit amet <em>consectetur</em>, adipisicing
+        elit. Voluptatem repellendus perspiciatis suscipit voluptate, laborum
+        quaerat magni fugit incidunt asperiores nemo adipisci error nostrum
+        saepe at quis culpa quam itaque iste.
+      </p>
+      <h3>Notes</h3>
+      <p>
+        press alt+shit+down arrow to make copies of text you just typed<br />
+        press alt+up/down arrow to move tag up or down<br />
+        press control+x to delete a line<br />
+        alt+shirt+F formats document<br />
+        In css, you can set the height or with to 300vp or viewpoint. Vw is viewpoint width.<br />
+        . = class <br />
+        # = id <br />
+        Use classes for everthing. Use id for sections so you can bounce around the page(s).<br />
+        <p>What is the box model: a container that consists of multiple different properties.
+          <ol>
+            <li>content</li>
+            <li>padding</li>
+            <li>border</li>
+            <li>margin</li>
+          </ol>
+          </p>
+          <p>
+            <a href="./CSS SImp/index.html">CSS Simp</a>
+          <h3>box sizing:</h3> content-box= contents is the same as the width and height. border-box= boder + padding + content. The window will shrink the content to fit in height and width box
+          Display properties: block: takes up 100% of the width and starts on a new line. example p and div tags.
+          Inline: doesn't allow you to set a width or height for elemets and start on the same line. ex span and img tags.
+        </p>
+        <p>
+          <h3>Postion:</h3> Static(default): follows noramal flow of the page. Relative: follows normal flow of the page. Lets you position using top, left, bottom, right. Absolute: does not follow the normal flow of the page. Lets you position with top, left, bottom, right. Postions is based off closest 'position: relative' parent.
+          Uncommon ones, Fixed: sticks element to a permanent loctaion on the page. Lets you use top, right, bottom, left.
+          Sticky: sitck elements to a permaneent location on the page once it hits a threshold.
+        </p>
+        <p>
+          <h3>Media queries:</h3> used to make a web page responsive. Make sure the highest media is at the top in styles sheet
+          <ul>Some numbers to remember
+            <li>mobile phone: 576px</li>
+            <li>Tablet: 768px</li>
+            <li>Desktops: 992px</li>
+            <li>Large Desktops: 1200px+</li>
+          </ul>
+        </p>
+        <p>
+          <h3>Pseudo selectors in CSS:</h3> after places things after a section/text. Before places things before a section/text. Pseudo element is accessed by ::. Pseudo class is accessed by :
+          To add a transition, you only need to add it to the parent element. 
+        </p>
+        <p>
+          <h3>Animations:</h3> create it use @keyframes and then name the animation. Need a starting point 0% and an end point 100%. 
+          Staring point needs to either transform at the X or Y axis and add by how many pixels.
+          In the parent element you need to add animation: name of animation, how long it last and either infinite(but jumps back to start) or infinite alternate-reverse(continous)
+          Without infinite, then just give it a number of how many times you want it to happen and the animation with stop once it reaches that number
+        </p>
+        <p>
+          <h3>BEM(Block-Element-Modifier):</h3> naming convention used for CSS classes to make them easier to read and understand, easy to maintain and change.
+           <ul>
+            <li>B [Block] is the block component. example; button, nav, main, footer(name of the massive section) </li>
+            <li>E [Element] is dependent on the block component. example; footer, link</li>
+            <li>M [Modifier] is used to change the style of the block. example; footer, link visited: not = white, visited = purple</li>
+           </ul>
+        </p>
+      </p>
+    </div>
+    <div>
+      <h2>CSS Notes</h2>
+      <p>
+        Start with a container<br />
+        Display flex: puts elements side by side. But it also unlocks flex-direction, align-items and justify-content.<br />
+        <h3>Flex-Direction:</h3> by default its in a row. Set flex-dirction to column if you want coulumns<br />
+        <h3>Align-items:</h3> by defult it is stretched to the top and bottom on the container so it uses the vertical axis(cross axis). Main one is align-center, it centers elements vertically.
+        flex-end, alings elements to the bottom of container.<br />
+        <h3>justify-content:</h3> by default flex-start aligns elements horizontally(main axis). center, puts elements in the center of the container.
+        flex-end, puts elements to end of container on the horizontal axis. Space-around makes sure the space between the sides of the container and in between the elements are exactly the same.
+        sapce-between, moves elements all the way to the sides and make sure the space between the elements are the same.<br />
+        <h3>Using all three: </h3> Flex-direction: column = justify-content becomes <b>vertical</b> axis and align-itmes becomes <b>horizontal</b> axis <br />
+        Flex-flow: using flex-dirction and flex-wrap. You can also use calc to push things to differnet lines. For example 6 boxes, 
+        width: calc(100% / 3) will only have 3 boxes on a line and push the others to the next line.
+      </p>
+      <p>
+        What does parents and children mean?: 
+        <ul>
+          <li>Parents refers to any element with other elemets inside it.</li>
+          <li>Child refers to an element inside of another element</li>
+        </ul>
+         Main axis is the horizontal axis. It controls how elements are laid out horizontally. The Cross axis is the vertical axis.
+         How the elements are laid out vertically. When using flex box, it is concerned with the parent and then controls how the children
+         are laid out. 
+      </p>
+
+    </div>
+    <a href="https://www.google.com/" target="_blank">Google</a>
+    <section>
+    <h1>Todo List</h1>
+    <img src="https://www.publicdomainpictures.net/pictures/490000/nahled/sea-turtle-clipart-illustration.jpg" alt="turtle">
+    <ul>
+      <li>Get a job</li>
+      <li>Pay for lawyer</li>
+      <li>If I have to move, move</li>
+    </ul>
+    </section>
+    <section>
+    <h1>how to get a job</h1>
+    <img src="./assets/laptop.png" alt="laptop">
+    <ol>
+      <li>update resume</li>
+      <li>apply for jobs</li>
+      <li>interview</li>
+    </ol>
+    </section>
+    <p>123</p>
+    <p>123</p>
+    <p>123</p>
+    <p>123</p>
+    <button>321</button>
+    <div>
+      <b><button><a href="login.html" >Login Page</button></b>
+    </div>
+    <button><a href="dashboard.html" >Dashboard</a></button>
+    <button><a href="landing.html" >Landing</a></button>
+  </body>
+</html>
