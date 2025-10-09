@@ -80,15 +80,22 @@ li {
     justify-content: center;
 }
 
+
+#about,
+#discord, 
+#contact {
+    padding: 48px 0;
+    
+}
+
 /*
 
 About Section
 
 */
+
 #about {
-    padding: 48px 0;
     background-color: #f8ffdc;
-    
 }
 
 h2 {
@@ -99,7 +106,7 @@ h2 {
 }
 
 
-.about-content {
+.section-content {
     max-width: 1300px;
     margin: 0 auto;
     display: flex;
@@ -113,7 +120,7 @@ h2 {
     width: 40%;
 }
 
-.about--wrapper {
+.section--wrapper {
     width: 60%;
     padding: 0 24px;
 }
@@ -122,11 +129,11 @@ img {
     width: 100%;
 }
 
-.about--text {
+.section--text {
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 24px;
-    text-align: justify;
+    text-align: center;
     color: #333333;
 }
 /*
@@ -134,3 +141,45 @@ img {
 Discord  Section
 
 */
+
+#discord {
+    padding: 48px 0;
+    background-color: #cefeff;
+    text-align: center;
+}
+
+
+.discord-content {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 24px;
+}
+
+
+/*
+
+Contact  Section
+
+*/
+
+#contact {
+    background-color: #dce9ff;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin-bottom: 24px;
+    font-size: 20x;
+    padding: 12px;
+}
