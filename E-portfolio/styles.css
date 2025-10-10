@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-   font-family: "Roboto", sans-serif;
+   font-family: "Arial, Lato", sans-serif ;
    padding: 0;
    margin: 0;
    box-sizing: border-box;
@@ -18,4 +18,49 @@ h1, h2, h3, h4, h5, h6, span {
 p {
     line-height: 1.5;
     font-size: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+/*  NAVAGATION BAR  */
+
+nav {
+    height: 100px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__link--list {
+    display: flex;
+}
+
+.nav__link--anchor{
+    margin: 0 12px;
+    color: #242424;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.nav__link--anchor-primary {
+    background-color: #6030b1;
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: white;
+}
+
+.nav__link--anchor-primary:hover {
+    background-color: #5d3eff;
+}
+
+.personal_logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6030b1;
+    margin: 0 12px;
 }
