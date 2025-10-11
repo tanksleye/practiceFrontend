@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Portfolio: E.Tanksley</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/ba1e47ecca.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
    
@@ -35,21 +37,38 @@
                 </ul>
             
         </nav>
-        <div>
+        <div class="flex flex-1">
             <div class="about-me__info row">
-              <div class="about-me__infor--containter">
+              <div class="about-me__info--container">
                 <figure class="about-me__picuture--mask">
-                    <img src="./assets/me.jpeg" alt="picture of me">
+                    <img src="./assets/me.jpeg" class="about-me__picture" alt="picture of me">
                 </figure>
-                <h1>
+                <h1 class="about-me__info--title">
                     HiYa, I'm <span class="text-purple">Eleseba</span>
                 </h1>
-                <p class="about-me__infor--para">
+                <p class="about-me__info--para">
                     I'm a <strong class="text-purple">frontend software engineer</strong>  with a strong passion for building 
                     responsive and performative web applications with great user experiences 
                     that positivel impacs the world.
                 </p>
-              </div>  
+                <div class="about-me__links">
+                    <a href="" class="about-me__link">
+                <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                    <a href="" class="about-me__link">
+                <i class="fa-brands fa-github"></i>
+                </a>
+                    <a href="" class="about-me__link">
+                <i class="fa-solid fa-envelope"></i>
+                </a>
+                    <a href="" class="about-me__link">
+                <i class="fa-solid fa-code-branch"></i>
+                </a>
+                </div>
+              </div> 
+              <figure class="about-me__img--container">
+                <img src="./assets/undraw_websites.svg" class="about-me__img" alt="">
+              </figure> 
             </div>
         </div>
     </section>
