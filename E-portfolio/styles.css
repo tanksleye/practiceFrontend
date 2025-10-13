@@ -36,6 +36,12 @@ li {
     flex: 1;
 }
 
+
+.container {
+    padding: 50px 0;
+}
+
+
 .row {
     width: 100%;
     max-width: 800px;
@@ -44,6 +50,16 @@ li {
 
 .text-purple {
     color: #6030b1;
+}
+
+
+
+section:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.section__title {
+    margin-bottom: 20px;
 }
 
 /*  NAVAGATION BAR  */
@@ -95,7 +111,7 @@ nav {
     flex-direction: column;
 }
 
-.about-me__info{
+.about-me__info {
     display: flex;
     flex-direction: column;
 }
@@ -105,7 +121,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
     text-align: center;
 }
@@ -147,8 +163,25 @@ nav {
     flex: 1;
     display: flex; 
     align-items: center;
+    margin: 80px auto;
 }
 
 .about-me__img {
     width: 100%;
+}
+
+
+/*  Tech Stack  */
+
+.language__img {
+    width: 100%;
+    max-width: 100px;
+    
+}
+
+.language__img--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
 }
