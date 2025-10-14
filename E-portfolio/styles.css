@@ -8,6 +8,9 @@
    box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 h1, h2, h3, h4, h5, h6, span {
    color: #242424;
@@ -26,7 +29,25 @@ p {
 
 a {
     text-decoration: none;
+    position: relative;
 }
+
+.link__hover-effect:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: black;
+    width: 0;
+    bottom: -3px;
+    right: 0;
+    transition: all 300ms ease;
+}
+
+.link__hover-effect:hover:after {
+    width: 100%;
+    left: 0;
+}
+
 
 li {
     list-style: none;
@@ -356,6 +377,7 @@ footer {
     top: 30px;
     font-weight: 700;
     opacity: 0;
+    transition: all 300ms ease;
 }
 
 .footer__anchor {
