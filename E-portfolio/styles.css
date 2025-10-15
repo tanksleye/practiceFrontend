@@ -30,6 +30,11 @@ p {
 a {
     text-decoration: none;
     position: relative;
+    transition: opacity 300ms ease;
+}
+
+i:hover {
+    opacity: 0.7;
 }
 
 .link__hover-effect:after {
@@ -81,7 +86,7 @@ li {
 }
 
 .text-purple {
-    color: #6030b1;
+    color: #e00909;
 }
 
 
@@ -119,14 +124,14 @@ nav {
 }
 
 .nav__link--anchor-primary {
-    background-color: #6030b1;
+    background-color: #e00909;
     padding: 8px 20px;
     border-radius: 50px;
     color: white;
 }
 
 .nav__link--anchor-primary:hover {
-    background-color: #5d3eff;
+    background-color: black;
 }
 
 .personal_logo {
@@ -201,7 +206,7 @@ nav {
     width: 100%;
 
     /*Improving picture*/
-    transform: scale(1.5);
+    transform: scale(1.2);
     padding-top: 8px;
 }
 
@@ -214,7 +219,7 @@ nav {
 .about-me__info--para {
     font-size: 20px;
     margin-bottom: 28px;
-    animation: fade-up 650ms 400ms backwards;
+    animation: fade-up 650ms 600ms backwards;
 }
 .about-me__link {
     font-size: 20px;
