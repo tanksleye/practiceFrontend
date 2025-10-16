@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+   font-family: "Arial, Lato", sans-serif; 
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+nav {
+    height: 80px;
+    display: flex;
+}
+
+.nav__container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.logo {
+    width: 160px;
+}
+
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
