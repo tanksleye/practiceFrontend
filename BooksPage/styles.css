@@ -137,6 +137,7 @@ button:active {
 
 .header__img--wrapper {
     padding: 20px;
+    
 }
 
 .container {
@@ -147,7 +148,22 @@ button:active {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    
+
 }
 /* HIGHLIGHTS */
 
+.highlight__wrapper {
+    display: flex;
+
+}
+
+.highlight {
+    padding: 0 24px;
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
