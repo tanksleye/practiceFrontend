@@ -286,7 +286,7 @@ button:active {
 }
 
 
-/* RECENT */
+/* RECENT & EXPLORE */
 
 #recent {
     margin: 5vw;
@@ -317,13 +317,13 @@ button:active {
     align-items: center;
 }
 
-.footer__logo {
+.footer__logo--img {
      width: 260px;
      
 }
 
 .footer__link {
     text-decoration: none;
-    margin-right: 12px;
+    margin-right: 12px; 
     color: white;
 }
