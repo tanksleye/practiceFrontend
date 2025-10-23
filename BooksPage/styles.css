@@ -289,5 +289,41 @@ button:active {
 /* RECENT */
 
 #recent {
-    margin: 72px 0;
+    margin: 5vw;
+}
+
+#explore {
+    background: rgba(115, 66, 214, 0.1);
+}
+
+
+
+
+/*  FOOTER  */
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 720px;
+    height: 20vh;
+    background-color: black;
+    
+}
+
+.footer__description {
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+     width: 260px;
+     
+}
+
+.footer__link {
+    text-decoration: none;
+    margin-right: 12px;
+    color: white;
 }
