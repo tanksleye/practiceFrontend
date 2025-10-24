@@ -64,6 +64,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 /* NAV */
 
 .nav__link {
