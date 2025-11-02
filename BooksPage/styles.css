@@ -97,6 +97,7 @@ a:hover {
     text-align: center;
     border: none;
     color: firebrick;
+    display: none;
 }
 
 .menu__backdrop {
@@ -110,11 +111,15 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
+    visibility: hidden;
+    transition: all  300ms ease;
+    opacity: 0;
 }
 
 .menu--open .menu__backdrop {
-    display: flex;
+    
+    visibility: visible;
+    opacity: 1;
 }
 
 .menu__links {
@@ -206,6 +211,7 @@ button:active {
     font-size: 20px;
     border-radius: 4px;
     border: none;
+    text-decoration: none;
     
 }
 
@@ -409,4 +415,16 @@ button:active {
 
 .footer__link {
     padding: 0 8px;
+}
+
+
+@media (max-width: 550px) {
+    .nav__links {
+        display: none;
+    }
+
+
+    .btn__menu {
+        display: block;
+    }
 }
