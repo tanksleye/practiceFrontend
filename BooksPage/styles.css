@@ -320,8 +320,13 @@ button:active {
     background-color: rgba(115, 66, 214, 0.1);
 }
 
+a.btn:hover {
+    text-decoration: none;
+}
 .books {
     display: flex;
+    flex-wrap: wrap;
+    padding-left: 18px;
 
 }
 
@@ -465,5 +470,8 @@ button:active {
         width: 100%;
     }
 
+    .highlight:not(:last-child) {
+        margin-bottom: 24px;
+    }
      
 }
